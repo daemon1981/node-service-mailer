@@ -1,6 +1,6 @@
 {
   "name": "node-service-mailer",
-  "description": "Add common user fonctionnality to document",
+  "description": "Making simple mailer service for node for simple use",
   "version": "0.0.1",
   "author": "Damien Saillard",
   "dependencies": {
