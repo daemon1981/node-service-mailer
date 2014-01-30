@@ -2,7 +2,11 @@
 
 ## Description
 
-Add common user fonctionnality to document
+Making simple mailer service for node for simple use
+
+Using great libraries:
+ - [nodemailer](https://github.com/andris9/Nodemailer)
+ - [node-email-templates](https://github.com/niftylettuce/node-email-templates)
 
 ## Installation
 
