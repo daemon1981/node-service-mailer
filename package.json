@@ -1,0 +1,32 @@
+{
+  "name": "node-service-mailer",
+  "description": "Add common user fonctionnality to document",
+  "version": "0.0.1",
+  "author": "Damien Saillard",
+  "dependencies": {
+    "email-templates": "*"
+    , "nodemailer": "v0.5.2"
+  },
+  "devDependencies": {
+    "should": "1.2.2"
+    , "mocha": "1.12.1"
+    , "coffee-script": "1.5.0"
+    , "sinon": "v1.7.3"
+  },
+  "keywords": [
+    "nodeJs"
+    , "MongooseJs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:daemon1981/node-service-mailer.git"
+  },
+  "engines": {
+    "node": ">0.8"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "make test",
+    "prepublish": "./node_modules/.bin/coffee -c -o ./lib/ src/"
+  }
+}
