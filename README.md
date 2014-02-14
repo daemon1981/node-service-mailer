@@ -2,7 +2,7 @@
 
 ## Description
 
-Making simple mailer service for node for simple use
+Making simple mailer service for node
 
 Using great libraries:
  - [nodemailer](https://github.com/andris9/Nodemailer)
@@ -20,7 +20,19 @@ $ npm install node-service-mailer
 
 ```
 var mailer = new Mailer("Sendmail", '/path/to/template');
-mailer.sendMail(req.locale, "signup", "Please validate your account", 'email@from.com', 'email@from.com', callback);
+mailer.sendMail('meLOCALE', "templateName", "Email Subject", 'email@from.com', 'email@to.com'[, {}], callback);
+```
+
+### Set your templates
+
+```
+path/
+  to/
+    template/
+      meLOCALE/
+        templateName/
+          html.ejs
+          text.ejs
 ```
 
 ### Specifications
