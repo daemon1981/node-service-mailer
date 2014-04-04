@@ -10,7 +10,7 @@ Using great libraries:
 
 ## Installation
 
-```
+```bash
 $ npm install node-service-mailer
 ```
 
@@ -18,7 +18,7 @@ $ npm install node-service-mailer
 
 ### Add plugin to a schema
 
-```
+```javascript
 var mailer = new Mailer("Sendmail", '/path/to/template');
 mailer.sendMail('meLOCALE', "templateName", "Email Subject", 'email@from.com', 'email@to.com'[, {}], callback);
 ```
